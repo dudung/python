@@ -7,3 +7,4 @@ examples on `type` function
 + [str](str.py)
 + [long](long.py)
 + [list](list.py)
++ [tuple](tuple.py)
