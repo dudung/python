@@ -1,10 +1,9 @@
-print("1st line", end=', ')
-print("still 1st line", end=', ')
-print("again still 1st line", end=', ')
-print("and of course still 1st line")
+print("ABCDEFGHIJLMNOPQRSTUVWXYZ", end='\r')
+print("01234567890123456789", end='\r')
+print("abcdefg", end='\r')
+print("(+)")
 
 
 """
-1st line, still 1st line, again still 1st line, and of course still 1st line
-PS L:\home\python>
+(+)defg7890123456789VWXYZ
 """
