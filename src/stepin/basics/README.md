@@ -1,5 +1,5 @@
-# basics (15)
+# basics (16)
 some basic examples
 
 + [print](print/README.md) (10)
-+ [type](type/README.md) (5)
++ [type](type/README.md) (6)
