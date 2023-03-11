@@ -1,4 +1,4 @@
-# basics (7)
+# basics (9)
 some basic examples
 
-+ [print](print/README.md) (7)
++ [print](print/README.md) (9)

@@ -1,4 +1,4 @@
-# print (7)
+# print (9)
 examples on `print` function
 
 + [hello_world](hello_world.py)
@@ -8,3 +8,5 @@ examples on `print` function
 + [args_line](args_line.py)
 + [args_line_sep_comma](args_line_sep_comma.py)
 + [args_line_sep_comma_space](args_line_sep_comma_space.py)
++ [args_lines_sep_newline](args_lines_sep_newline.py)
++ [multiple_line_end_carriage_return](multiple_line_end_carriage_return.py)
