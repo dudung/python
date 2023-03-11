@@ -1,4 +1,4 @@
-# type (7)
+# type (8)
 examples on `type` function
 
 + [int](int.py)
@@ -8,3 +8,4 @@ examples on `type` function
 + [long](long.py)
 + [list](list.py)
 + [tuple](tuple.py)
++ [set](set.py)
