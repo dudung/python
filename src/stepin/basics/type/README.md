@@ -1,4 +1,4 @@
-# type (8)
+# type (9)
 examples on `type` function
 
 + [int](int.py)
