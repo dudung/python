@@ -1,4 +1,4 @@
 # python
-a python cookbook
+a python cookbook for learning
 
 + [src](src/README.md)
