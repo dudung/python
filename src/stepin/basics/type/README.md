@@ -9,3 +9,4 @@ examples on `type` function
 + [list](list.py)
 + [tuple](tuple.py)
 + [set](set.py)
++ [dict](dict.py)
