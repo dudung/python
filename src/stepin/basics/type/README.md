@@ -6,3 +6,4 @@ examples on `type` function
 + [bool](bool.py)
 + [str](str.py)
 + [long](long.py)
++ [list](list.py)
