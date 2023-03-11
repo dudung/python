@@ -1,5 +1,10 @@
-# print (2)
+# print (7)
 examples on `print` function
 
-+ [hello_world](hello_world.py) [`3z29ma69q`](https://onecompiler.com/python/3z29ma69q)
-+ [multiple_lines](multiple_lines.py) [`3z29mex68`](https://onecompiler.com/python/3z29mex68)
++ [hello_world](hello_world.py)
++ [multiple_lines](multiple_lines.py)
++ [single_lines](single_lines.py)
++ [multiple_end_comma_space](multiple_end_comma_space.py)
++ [args_line](args_line.py)
++ [args_line_sep_comma](args_line_sep_comma.py)
++ [args_line_sep_comma_space](args_line_sep_comma_space.py)

@@ -1,4 +1,4 @@
-# stepin (1)
+# stepin (7)
 step in to learn python code
 
-+ [basics](basics/README.md) (2)
++ [basics](basics/README.md) (7)
