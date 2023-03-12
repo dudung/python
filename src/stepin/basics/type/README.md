@@ -1,4 +1,4 @@
-# type (10)
+# type (11)
 examples on `type` function
 
 + [int](int.py)
@@ -11,3 +11,4 @@ examples on `type` function
 + [set](set.py)
 + [dict](dict.py)
 + [class](class.py)
++ [range](range.py)
