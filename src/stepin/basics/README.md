@@ -1,6 +1,6 @@
-# basics (22)
+# basics (25)
 some basic examples
 
 + [print](print/README.md) (10)
 + [type](type/README.md) (11)
-+ [range](range/README.md) (1)
++ [range](range/README.md) (4)
