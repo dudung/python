@@ -25,7 +25,7 @@ for i in x.items():
     print(i, end=" ")
 print()
 
-print("i, j in items(), i, j: ")
+print("i, j in items(), i j: ")
 for i, j in x.items():
     print(i, j)
 print()
@@ -37,7 +37,7 @@ i in x, x[i]: 1 3 2 8
 i in x.values(), i: 1 3 2 8
 i in keys(), i: a b c d
 i in items(), i: ('a', '1') ('b', '3') ('c', '2') ('d', '8')
-i, j in items(), i, j:
+i, j in items(), i j:
    a 1
    b 3
    c 2
