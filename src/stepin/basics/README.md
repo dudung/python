@@ -1,4 +1,4 @@
-# basics (32)
+# basics (35)
 some basic examples
 
 + [print](print/README.md) (10)
@@ -6,3 +6,4 @@ some basic examples
 + [type](type/README.md) (11)
 + [range](range/README.md) (5)
 + [for](for/README.md) (3)
++ [function](function/README.md) (3)
