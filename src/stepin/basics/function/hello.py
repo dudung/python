@@ -1,12 +1,12 @@
 def hello_world():
     print("Hello, World!")
 
-def greeting(name):
+def hello(name):
     print("Hello, ", name, "!", sep='')
 
 hello_world()
-greeting("World")
-greeting("User")
+hello("World")
+hello("User")
 
 """
 Hello, World!
