@@ -1,4 +1,4 @@
-# fuction (3)
+# function (6)
 examples on user defined function
 
 + [hello](hello.py)
