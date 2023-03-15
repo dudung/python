@@ -22,7 +22,7 @@ sp = sumprod(x, y, z)
 
 print("x  y   z")
 for i in range(min(len(x), len(y), len(z))):
-    print(f"{x[i]:1d}, {y[i]:1d}, {z[i]:2d}")
+  print(f"{x[i]:1d}, {y[i]:1d}, {z[i]:2d}")
 
 """
 """
