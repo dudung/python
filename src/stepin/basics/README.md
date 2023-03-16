@@ -1,4 +1,4 @@
-# basics (51)
+# basics (53)
 some basic examples
 
 + [print](print/README.md) (10)
@@ -8,4 +8,4 @@ some basic examples
 + [for](for/README.md) (8)
 + [while](while/README.md) (6)
 + [function](function/README.md) (7)
-+ [list](list/README.md) (1)
++ [list](list/README.md) (3)
