@@ -1,4 +1,4 @@
-# print (10)
+# print (9)
 examples on `print` function
 
 + [hello_world](hello_world.py)

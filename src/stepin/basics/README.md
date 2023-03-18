@@ -1,7 +1,7 @@
-# basics (62)
+# basics (61)
 some basic examples
 
-+ [print](print/README.md) (10)
++ [print](print/README.md) (9)
 + [comment](comment/README.md) (3)
 + [type](type/README.md) (11)
 + [range](range/README.md) (5)
