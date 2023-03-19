@@ -1,4 +1,4 @@
-# markdown (8)
+# markdown (11)
 examples of using markdown
 
 + [paragraph](paragraph.md)
@@ -9,3 +9,6 @@ examples of using markdown
 + [orderedlist](orderedlist.md)
 + [mixedlist](mixedlist.md)
 + [blockquote](Blockquote.md)
++ [code](code.md)
++ [codeblock](codeblock.md)
++ [syntaxhighlighting](syntaxhighlighting.md)
