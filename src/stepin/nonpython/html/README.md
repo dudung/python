@@ -7,7 +7,7 @@ examples of using html (only related to markdown)
 + [heading](heading.md)
 + [unorderedlist](unorderedlist.md)
 + [orderedlist](orderedlist.md)
-+ mixedlist
++ [mixedlist](mixedlist.md)
 + blockquote
 + code
 + codeblock
