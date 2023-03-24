@@ -39,3 +39,20 @@ def add(x, y):
   z = x + y
   return z
 ```
+
+
+With pairs of additional language information
+
+<pre>
+```python
+def add(x, y):
+  z = x + y
+  return z
+```
+</pre>
+
+```python
+def add(x, y):
+  z = x + y
+  return z
+```
