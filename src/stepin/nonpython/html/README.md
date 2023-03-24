@@ -1,9 +1,9 @@
-# html (1)
+# html (3)
 examples of using html (only related to markdown)
 
 + [paragraph](paragraph.md)
-+ newline
-+ emphasis
++ [newline](newline.md)
++ [emphasis](emphasis.md)
 + heading
 + unorderedlist
 + orderedlist
