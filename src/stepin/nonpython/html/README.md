@@ -14,5 +14,5 @@ examples of using html (only related to markdown)
 + [syntaxhighlighting](syntaxhighlighting.md)
 + [link](link.md)
 + [image](image.md)
-+ horizontalrule
++ [horizontalrule](horizontalrule.md)
 + table
