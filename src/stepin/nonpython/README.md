@@ -1,7 +1,7 @@
-# nonpython (48)
+# nonpython (51)
 some basic non-python examples
 
 + [markdown](markdown/README.md) (15)
 + [html](html/README.md) (15)
 + [mathjax](mathjax/README.md) (10)
-+ [mermaid](mermaid/README.md) (8)
++ [mermaid](mermaid/README.md) (11)

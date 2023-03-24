@@ -1,4 +1,4 @@
-# mermaid (8)
+# mermaid (11)
 some basic mermaid examples
 
 + [arrow](arrow.md)
@@ -8,4 +8,7 @@ some basic mermaid examples
 + [inputoutput](input_output.md)
 + [decision](decision.md)
 + [begin_end](begin_end.md)
-+ [begin_proc_end](begin_proc_end.md)
++ [beg_proc_end](beg_proc_end.md)
++ [beg_in_proc_out_end](beg_in_proc_out_end.md)
++ [beg_in_dec_proc_out_end](beg_in_dec_proc_out_end.md)
++ [beg_in_dec_con_proc_out_end](beg_in_dec_con_proc_out_end.md)
