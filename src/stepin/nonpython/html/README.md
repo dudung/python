@@ -13,6 +13,6 @@ examples of using html (only related to markdown)
 + [codeblock](codeblock.md)
 + [syntaxhighlighting](syntaxhighlighting.md)
 + [link](link.md)
-+ image
++ [image](image.md)
 + horizontalrule
 + table
