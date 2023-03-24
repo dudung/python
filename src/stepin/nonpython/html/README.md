@@ -4,8 +4,8 @@ examples of using html (only related to markdown)
 + [paragraph](paragraph.md)
 + [newline](newline.md)
 + [emphasis](emphasis.md)
-+ heading
-+ unorderedlist
++ [heading](heading.md)
++ [unorderedlist](unorderedlist.md)
 + orderedlist
 + mixedlist
 + blockquote
