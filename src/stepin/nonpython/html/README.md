@@ -1,4 +1,4 @@
-# html (14)
+# html (15)
 examples of using html (only related to markdown)
 
 + [paragraph](paragraph.md)
@@ -15,4 +15,4 @@ examples of using html (only related to markdown)
 + [link](link.md)
 + [image](image.md)
 + [horizontalrule](horizontalrule.md)
-+ table
++ [table](table.md)
