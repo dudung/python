@@ -1,4 +1,4 @@
-# markdown (12) +2
+# markdown (15)
 examples of using markdown
 
 + [paragraph](paragraph.md)
@@ -13,5 +13,6 @@ examples of using markdown
 + [codeblock](codeblock.md)
 + [syntaxhighlighting](syntaxhighlighting.md)
 + [link](link.md)
-+ image
-+ horizontalrule
++ [image](image.md)
++ [horizontalrule](horizontalrule.md)
++ [table](table.md)
