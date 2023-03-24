@@ -1,13 +1,11 @@
 <pre>
 ```mermaid
 flowchart LR
-  P1["Process 1"]
-  P2["Process 2"]
+  D{"Decision"}
 ```
 </pre>
 
 ```mermaid
 flowchart LR
-  P1["Process 1"]
-  P2["Process 2"]
+  D{"Decision"}
 ```
