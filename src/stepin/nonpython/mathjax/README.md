@@ -1,4 +1,4 @@
-# nonpython (5)
+# nonpython (7)
 some basic mathjax examples
 
 + [inline_block](inline_block.md)
@@ -6,3 +6,5 @@ some basic mathjax examples
 + [fraction](fraction.md)
 + [root_nth](root_nth.md)
 + [trigonometric_hyperbolic_functions](trigonometric_hyperbolic_functions.md)
++ [brackets](brackets.md)
++ [matrices](matrices.md)
