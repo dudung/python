@@ -11,7 +11,7 @@ examples of using html (only related to markdown)
 + [blockquote](blockquote.md)
 + [code](code.md)
 + [codeblock](codeblock.md)
-+ syntaxhighlighting
++ [syntaxhighlighting](syntaxhighlighting.md)
 + link
 + image
 + horizontalrule

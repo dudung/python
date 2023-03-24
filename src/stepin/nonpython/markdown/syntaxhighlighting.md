@@ -27,6 +27,7 @@ def add(x, y):
   return z
 ```
 
+
 <pre>
 ```bash
 def add(x, y):
@@ -40,6 +41,7 @@ def add(x, y):
   z = x + y
   return z
 ```
+
 
 <pre>
 ```cpp
