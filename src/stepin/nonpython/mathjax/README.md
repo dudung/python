@@ -1,4 +1,4 @@
-# nonpython (10)
+# mathjax (10)
 some basic mathjax examples
 
 + [inline_block](inline_block.md)

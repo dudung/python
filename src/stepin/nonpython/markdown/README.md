@@ -8,7 +8,7 @@ examples of using markdown
 + [unorderedlist](unorderedlist.md)
 + [orderedlist](orderedlist.md)
 + [mixedlist](mixedlist.md)
-+ [blockquote](Blockquote.md)
++ [blockquote](blockquote.md)
 + [code](code.md)
 + [codeblock](codeblock.md)
 + [syntaxhighlighting](syntaxhighlighting.md)
