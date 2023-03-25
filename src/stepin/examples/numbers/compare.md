@@ -12,7 +12,7 @@ flowchart TD
   C2a(("2"))
   C2b(("2"))
   B(("Begin"))
-  I[/"x"/]
+  I[/"x, y"/]
   D{"x < y?"}
   P1["sign = '<'"]
   P2["sign = '>='"]
@@ -35,7 +35,7 @@ flowchart TD
   C2a(("2"))
   C2b(("2"))
   B(("Begin"))
-  I[/"x"/]
+  I[/"x, y"/]
   D{"x < y?"}
   P1["sign = '<'"]
   P2["sign = '>='"]
