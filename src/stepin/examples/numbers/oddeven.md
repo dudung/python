@@ -48,7 +48,7 @@ flowchart TD
 # begin
 
 # input
-x = float(input("Give a number : "))
+x = int(input("Give a number : "))
 
 # decision
 if x % 2 == 1:
@@ -67,9 +67,9 @@ print(x, "is", msg)
 """
 $ python oddeven.py
 Give a number : 2
-2.0 is even
+2 is even
 $ python oddeven.py
 Give a number : 3
-3.0 is odd
+3 is odd
 """
 ```
