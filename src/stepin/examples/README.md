@@ -2,4 +2,4 @@
 some simple examples for python and non-python
 
 + [numbers](numbers/README.md) (5)
-+ [for](for/README.md) (1)
++ [loop](loop/README.md) (1)
