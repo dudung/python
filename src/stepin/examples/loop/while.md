@@ -1,5 +1,24 @@
-<pre><code>```mermaid
+<pre><code class="language-python">```mermaid
   flowchart TB
+    B --> I --> P1 --> P2 --> o1 --> P3 --> O --> C1
+    C1 --"N"--> P4 --> P5 --> C2
+    C2 --"Y"--> o1
+    C1 --"Y"--> o2
+    C2 --"N"--> o2
+    o2 --> E
+    B(("Begin"))
+    I[/"f(x), xbeg,<br> xend, dx"/]
+    P1["x = xbeg"]
+    P2["yold = f(xbeg)"]
+    P3["y = f(x)"]
+    O[/"Print x, y"/]
+    E(("End"))
+    C1{"yold &middot; y < 0 ?"}
+    C2{"x &le; xend ?"}
+    P4["yold = y"]
+    P5["x = x + dx"]
+    o1((" "))
+    o2((" "))
 ```</code></pre>
 
 ```mermaid
