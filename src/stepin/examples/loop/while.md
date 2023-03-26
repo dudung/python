@@ -4,12 +4,12 @@
 
 ```mermaid
   flowchart TB
-    B --> I --> P1 --> P2 --> o1a
-    o1b --> o2 --> P3 --> O --> C1 --"N"--> P4 --> C2
-    C2 --"Y"--> P5 --> o2
-    C1 --"Y"--> o3a
-    C2 --"N"--> o3a
-    o3b --> E
+    B --> I --> P1 --> P2 --> o1 --> P3 --> O --> C1
+    C1 --"N"--> P4 --> P5 --> C2
+    C2 --"Y"--> o1
+    C1 --"Y"--> o2
+    C2 --"N"--> o2
+    o2 --> E
     B(("Begin"))
     I[/"f(x), xbeg,<br> xend, dx"/]
     P1["x = xbeg"]
@@ -21,9 +21,8 @@
     C2{"x &le; xend ?"}
     P4["yold = y"]
     P5["x = x + dx"]
-    o1a(("1")); o1b(("1"));
+    o1((" "))
     o2((" "))
-    o3a(("2")); o3b(("3"));
 ```
 
 
