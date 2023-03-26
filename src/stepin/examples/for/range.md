@@ -3,7 +3,7 @@
   C1b --> O --> P2 --> C --"Y"--> C1b
   C --"N"--> E
   B(("Begin"))
-  I["start=2<br>stop=9<br>step=3"]
+  I["start=2&lt;br&gt;stop=9&lt;br&gt;step=3"]
   P1["i = start"]
   C1a(("1"))
   C1b(("1"))
