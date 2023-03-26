@@ -1,11 +1,24 @@
 <pre><code>```mermaid
+  B --> I --> P1 --> C1a
+  C1b --> O --> P2 --> C --"Y"--> C1b
+  C --"N"--> E
+  B(("Begin"))
+  I["start=2<br>stop=9<br>step=3"]
+  P1["i = start"]
+  C1a(("1"))
+  C1b(("1"))
+  O[/"Print i"/]
+  P2["i = i + step"]
+  C{"i < stop ?"}
+  E(("End"))
 ```</code></pre>
 
 
 ```mermaid
 flowchart TB
   B --> I --> P1 --> C1a
-  C1b --> O --> P2 --> C --Y--> C1b
+  C1b --> O --> P2 --> C --"Y"--> C1b
+  C --"N"--> E
   B(("Begin"))
   I["start=2<br>stop=9<br>step=3"]
   P1["i = start"]
@@ -16,12 +29,6 @@ flowchart TB
   C{"i < stop ?"}
   E(("End"))
 ```
-
-
-
-
-
-
 
 
 ```python
