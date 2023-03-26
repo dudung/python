@@ -4,8 +4,26 @@
 
 ```mermaid
   flowchart TB
-  B(("Begin"))
-  E(("End"))
+    B --> I --> P1 --> P2 --> o1a
+    o1b --> o2 --> P3 --> O --> C1 --"N"--> P4 --> C2
+    C2 --"Y"--> P5 --> o2
+    C1 --"Y"--> o3a
+    C2 --"N"--> o3a
+    o3b --> E
+    B(("Begin"))
+    I[/"f(x), xbeg,<br> xend, dx"/]
+    P1["x = xbeg"]
+    P2["yold = f(xbeg)"]
+    P3["y = f(x)"]
+    O[/"Print x, y"/]
+    E(("End"))
+    C1{"yold &middot; y < 0 ?"}
+    C2{"x &le; xend ?"}
+    P4["yold = y"]
+    P5["x = x + dx"]
+    o1a(("1")); o1b(("1"));
+    o2((" "))
+    o3a(("2")); o3b(("3"));
 ```
 
 
