@@ -6,3 +6,4 @@ solving systems of odes using euler method
 + [sir_model](sir_model.md)
 + [lotka_volterra_3](lotka_volterra_3.md)
 + [competing_species](competing_species.md)
++ [chemical_reaction](chemical_reaction.md)
