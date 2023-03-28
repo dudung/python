@@ -7,3 +7,7 @@ $$
 $$\tag{2}
 \frac{dN_2}{dt} = -\lambda_2 N_2 + \lambda_1 N_1
 $$
+
+$$\tag{3}
+\lambda_1 = \frac{\ln 2}{T_{\frac12}} \approx \frac{0.693}{T_{\frac12}}
+$$
