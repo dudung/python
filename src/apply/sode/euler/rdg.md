@@ -1,9 +1,10 @@
-beg="""
+
 # an example
 $$\tag{1}
 y = ax^2 + bx + c
 $$
-```python """
+
+```python
 
 import math
 
@@ -21,12 +22,9 @@ for i in range(0, 20):
   N1 = N1 * (1  - l_ * dt)
 
 
-end="""
 ```
 
 ```mermaid
   flowchart LR
   A --> B
 ```
-
-"""
