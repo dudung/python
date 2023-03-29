@@ -1,4 +1,4 @@
-# euler (0)
+# euler (6)
 solving systems of odes using euler method
 
 + [radioactive_decay_growth](radioactive_decay_growth.md)
