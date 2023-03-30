@@ -1,1 +1,1 @@
-cat $1 | sed '0, /```/d; /```/Q' | python
+cat $1 | sed '0, /```python/d; /```/Q' | python
