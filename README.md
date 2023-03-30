@@ -1,4 +1,4 @@
 # python
-a python cookbook for learning
+a python cookbook for programming learning and other things
 
 + [src](src/README.md) (126)
