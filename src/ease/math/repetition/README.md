@@ -1,4 +1,6 @@
 # repetition (0)
 repetition in math and python
 
-+ [sum](sum.md)
++ [set](set.md)
++ [summation](summation.md)
++ [product](product.md)
