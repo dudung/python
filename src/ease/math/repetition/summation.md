@@ -1,24 +1,8 @@
 $$\tag{1}
-x_i \in \mathbb{R}, \ \ i \in \mathbb{N}
-$$
-
-$$\tag{2}
-X = \{x_i \ | \ i \in I \}
-$$
-
-$$\tag{3}
-I = [n] = {1, 2, \dots, n-1, n}
-$$
-
-$$\tag{4}
-|X| = n
-$$
-
-$$\tag{5}
 \sum_{i = 1}^n x_i = x_1 + x_2 + \dots + x_n
 $$
 
-$$\tag{6}
+$$\tag{2}
 \sum_{i = 1}^n i = n
 $$
 
@@ -28,12 +12,10 @@ flowchart LR
   B --> I --> P --> O --> E
   B(("Begin"))
   I[/"{x}"/]
-  P["sox = Σ x"]
-  O[\"Print sox"\]
+  P["Calculate Σx"]
+  O[\"Print Σx"\]
   E(("End"))
 ```
-
-&Sigma;
 
 
 ```python
