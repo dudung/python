@@ -1,3 +1,9 @@
+class Keyboard:
+  def __init__(self, name="Keyboard")
+    self.name = name
+
+
+
 class Scanner:
   def __init__(self):
     name = "Scanner"
