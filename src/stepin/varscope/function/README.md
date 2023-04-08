@@ -1,4 +1,4 @@
-# function (5)
+# function (6)
 function-block variable scope 
 
 + [one_function](one_function.py)
@@ -6,3 +6,4 @@ function-block variable scope
 + [function_call_function](function_call_function.py)
 + [function_inside_function](function_inside_function.py)
 + [function_arg](function_arg.py)
++ [function_arg_string](function_arg_string.py)
