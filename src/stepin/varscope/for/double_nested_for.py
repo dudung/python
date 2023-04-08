@@ -9,6 +9,7 @@ for i in range(4):
 
 print(x, y, z)
 
+
 """
 $ python double_nested_for.py
 2 3 4

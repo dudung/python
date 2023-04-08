@@ -6,6 +6,7 @@ for i in range(1, 5):
 
 print(x)
 
+
 """
 $ python def_before_for.py
 100
