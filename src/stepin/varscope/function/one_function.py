@@ -5,7 +5,6 @@ def do_something():
   x = 3
   print(x)
   
-
 x = 100
 
 print("Before calling function")
