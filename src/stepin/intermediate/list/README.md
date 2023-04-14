@@ -10,4 +10,4 @@ intermediate examples on using `list`
 + [circular_shift_left](circular_shift_left.py)
 + [circular_shift_function](circular_shift_function.py)
 + [swap_element](swap_element.py)
-+ [traversing_list](traversing_list.py)
++ [traverse_list](traverse_list.py)
