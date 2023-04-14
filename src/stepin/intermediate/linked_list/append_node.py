@@ -16,10 +16,13 @@ print(ll.head)
 print(ll.head.next)
 print(ll.head.next.next)
 print(ll.head.next.next.next)
-print(ll.head.next.next.next.next)
 
 
 """
-append_node.py
-nodes=2
+$ python append_node.py
+nodes=3
+value=satu
+value=dua
+value=tiga
+None
 """

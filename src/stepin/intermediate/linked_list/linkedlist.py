@@ -13,6 +13,6 @@ class LinkedList:
     if current == None:
       self.head = node
     else:
-      while current.next == None:
-        current.next = node
+      while current.next != None:
         current = current.next
+      current.next = node
