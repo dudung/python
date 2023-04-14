@@ -1,4 +1,4 @@
-# list (7)
+# list (8)
 intermediate examples on using `list`
 
 + [clear](clear.py)
@@ -8,3 +8,4 @@ intermediate examples on using `list`
 + [insert](insert.py)
 + [circular_shift_right](circular_shift_right.py)
 + [circular_shift_left](circular_shift_left.py)
++ [circular_shift_function](circular_shift_function.py)
