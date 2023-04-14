@@ -8,5 +8,8 @@ print(x)
 
 
 """
-python 
+python circular_shift_right.py
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4]
+[5, 1, 2, 3, 4]
 """
