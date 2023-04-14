@@ -1,4 +1,4 @@
-# intermediate (1)
+# intermediate (4)
 some intermediate examples
 
-+ [list](list/README.md) (1)
++ [list](list/README.md) (4)
