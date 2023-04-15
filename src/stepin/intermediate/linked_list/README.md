@@ -1,4 +1,4 @@
-# linked_list (8)
+# linked_list (9)
 intermediate examples on linked list
 
 + [node](node.py)
@@ -9,3 +9,4 @@ intermediate examples on linked list
 + [list_all_nodes](list_all_nodes.py)
 + [list_random_nodes](list_random_nodes.py)
 + [remove_node](remove_node.py)
++ [remove_node_bug](remove_node_bug.py)
