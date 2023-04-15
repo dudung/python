@@ -16,3 +16,13 @@ class LinkedList:
       while current.next != None:
         current = current.next
       current.next = node
+  
+  def graphs(self):
+    val = ""
+    current = self.head
+    while current != None:
+      val += str(current.value)
+      current = current.next
+      if current != None:
+        val += " --> "
+    return val
