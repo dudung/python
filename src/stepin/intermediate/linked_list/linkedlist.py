@@ -26,3 +26,21 @@ class LinkedList:
       if current != None:
         val += " --> "
     return val
+  
+  def remove(self, i):
+    if self.n == 0 or self.n <= i:
+      return
+    
+    m = 0
+    current = self.head
+    while current != None:
+      if m == i-1:
+        next = current.next
+        next2 = current.next.next
+        current.next = next2
+        next.next = None
+        break
+      current = current.next
+      m += 1
+    pass
+    
