@@ -49,3 +49,12 @@ class LinkedList:
     self._count -= 1
     
     return value
+  
+  def index(self, value):
+    node = self._head
+    i = 0
+    
+    while node.data != value:
+      node = node.next
+      i += 1
+    return i
