@@ -10,6 +10,9 @@ examples on getter and setter
 + [private_convention_only](private_convention_only.py)
 + [private2](private2.py)
 + [private2_mangling](private2_mangling.py)
++ [id4d](id4d.py)
++ [id4d_property](id4d_property.py)
+
 
 <!--
 https://realpython.com/python-getter-setter/
