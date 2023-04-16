@@ -1,4 +1,4 @@
-# getter_setter (6)
+# getter_setter (7)
 examples on getter and setter
 
 + [notation](notation.py)
@@ -7,6 +7,7 @@ examples on getter and setter
 + [public_bug](public_bug.py)
 + [public_bug_fix](public_bug_fix.py)
 + [private](private.py)
++ [private_convention_only](private_convention_only.py)
 
 <!--
 https://realpython.com/python-getter-setter/
