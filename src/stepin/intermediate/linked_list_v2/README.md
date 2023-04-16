@@ -10,3 +10,4 @@ further examples on linked list using property
 + [linkedlist_find](linkedlist_find.py)
 + [linkedlist_prepend](linkedlist_prepend.py)
 + [linkedlist_insert](linkedlist_insert.py)
++ linkedlist_remove
