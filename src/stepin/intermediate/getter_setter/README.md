@@ -3,6 +3,7 @@ examples on getter and setter
 
 + [public](public.py)
 + [public_bug](public_bug.py)
++ [public_bug_fix](public_bug_fix.py)
 + [notation](notation.py)
 + [notation_bug](notation_bug.py)
 
