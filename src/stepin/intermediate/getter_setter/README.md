@@ -1,4 +1,4 @@
-# getter_setter (9)
+# getter_setter (11)
 examples on getter and setter
 
 + [notation](notation.py)
