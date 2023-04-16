@@ -2,7 +2,8 @@
 examples on getter and setter
 
 + [public](public.py)
-+ [public_bug](public_bug.py)
++ [notation](notation.py)
++ [notation_bug](notation_bug.py)
 
 
 <!--

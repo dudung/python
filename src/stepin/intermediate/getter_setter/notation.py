@@ -33,12 +33,20 @@ class Notation:
 z = Notation(-2035.2, "kg/m^3")
 print(z)
 
-z.coeff = 1024
+z = Notation(35.987, "m/s")
+print(z)
+
+z = Notation(0000.00, "N/m^2")
+print(z)
+
+z = Notation(1.25, "J")
 print(z)
 
 
 """
-$ python public_bug.py
+$ python notation.py
 -2.0352 × 10^3 kg/m^3
--1024 × 10^3 kg/m^3
++3.5987 × 10 m/s
+ 0 N/m^2
++1.25 J
 """
