@@ -9,15 +9,15 @@ class LinkedList:
   def count(self):
     return self._count
   
-  def append(self, data):
+  def append(self, value):
     node = self._head
     if node == None:
-      nn = Node(data)
+      nn = Node(value)
       self._head = nn
     else:
       while node.next != None:
         node = node.next
-      nn = Node(data)
+      nn = Node(value)
       node.next = nn
     
     self._count += 1
@@ -67,10 +67,28 @@ class LinkedList:
         return node
       node = node.next
   
-  def prepend(self, data):
+  def prepend(self, value):
     node = self._head
-    nn = Node(data)
+    nn = Node(value)
     self._head = nn
     if node != None:
       self._head.next = node
+    self._count += 1
+  
+  def insert(self, index, value):
+    node = self._head
+    if node == None or index >= self.count:
+      self.append(value)
+    elif index == 0:
+      self.prepend(value)
+    else:
+      i = 1
+      while i <= index:
+        if i == index:
+          nn = Node(value)
+          next = node.next
+          node.next = nn
+          nn.next = next
+        node = node.next
+        i += 1
     self._count += 1
