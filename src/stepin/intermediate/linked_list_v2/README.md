@@ -1,4 +1,4 @@
-# linked_list_v2 (2)
+# linked_list_v2 (5)
 further examples on linked list using property
 
 + [node](node.py)
