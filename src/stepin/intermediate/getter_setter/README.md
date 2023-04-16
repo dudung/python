@@ -1,11 +1,11 @@
-# getter_setter (4)
+# getter_setter (5)
 examples on getter and setter
 
++ [notation](notation.py)
++ [notation_bug](notation_bug.py)
 + [public](public.py)
 + [public_bug](public_bug.py)
 + [public_bug_fix](public_bug_fix.py)
-+ [notation](notation.py)
-+ [notation_bug](notation_bug.py)
 
 
 <!--
