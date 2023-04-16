@@ -8,6 +8,8 @@ examples on getter and setter
 + [public_bug_fix](public_bug_fix.py)
 + [private](private.py)
 + [private_convention_only](private_convention_only.py)
++ [private2](private2.py)
++ [private2_mangling](private2_mangling.py)
 
 <!--
 https://realpython.com/python-getter-setter/
