@@ -1,4 +1,4 @@
-# getter_setter (2)
+# getter_setter (4)
 examples on getter and setter
 
 + [public](public.py)
