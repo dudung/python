@@ -11,7 +11,7 @@ print(ll.list())
 
 
 """
-$ python linkedlist_instance.py
+$ python linkedlist_append.py
 4
 [100, 'Hello', True, 0.009834]
 """

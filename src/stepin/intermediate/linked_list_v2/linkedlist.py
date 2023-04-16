@@ -66,3 +66,11 @@ class LinkedList:
       if node.data == value:
         return node
       node = node.next
+  
+  def prepend(self, data):
+    node = self._head
+    nn = Node(data)
+    self._head = nn
+    if node != None:
+      self._head.next = node
+    self._count += 1
