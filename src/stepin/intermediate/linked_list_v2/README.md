@@ -1,4 +1,4 @@
-# linked_list_v2 (6)
+# linked_list_v2 (7)
 further examples on linked list using property
 
 + [node](node.py)
@@ -7,3 +7,4 @@ further examples on linked list using property
 + [linkedlist_append](linkedlist_append.py)
 + [linkedlist_pop](linkedlist_pop.py)
 + [linkedlist_index](linkedlist_index.py)
++ [linkedlist_find](linkedlist_find.py)

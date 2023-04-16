@@ -58,3 +58,11 @@ class LinkedList:
       node = node.next
       i += 1
     return i
+
+  def find(self, value):
+    node = self._head
+    
+    while node != None:
+      if node.data == value:
+        return node
+      node = node.next
