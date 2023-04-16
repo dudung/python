@@ -41,7 +41,27 @@ print(ll.list())
 
 
 """
-$ python linkedlist_instance.py
+$ python linkedlist_pop.py
 4
-[100, 'Hello', True, 0.009834]
+[True, 'Hello', 0.009834, 100]
+
+100
+3
+[True, 'Hello', 0.009834]
+
+0.009834
+2
+[True, 'Hello']
+
+Hello
+1
+[True]
+
+True
+0
+[]
+
+
+0
+[]
 """
