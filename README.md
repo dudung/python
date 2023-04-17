@@ -2,4 +2,4 @@
 a python cookbook for programming learning and other things
 
 + [src](src/README.md) (185)
-+ [courses](courses/README.md) (4)
++ [courses](courses/README.md) (6)
