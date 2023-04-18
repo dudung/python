@@ -103,7 +103,7 @@ def tpose(x):
 
 
 # trace of a square matrix
-def tpose(x):
+def trace(x):
   num = len(x)
   y = 0
   for i in range(num):

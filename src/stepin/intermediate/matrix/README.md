@@ -9,3 +9,5 @@ intermediate examples on using `list` for matrices
 + [sub_matrix](sub_matrix.py)
 + [mul_matrix](mul_matrix.py)
 + [map_matrix](map_matrix.py)
++ [tpose_matrix](tpose_matrix.py)
++ [trace_matrix](trace_matrix.py)
