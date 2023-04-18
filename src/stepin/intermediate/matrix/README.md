@@ -1,4 +1,4 @@
-# matrix (7)
+# matrix (8)
 intermediate examples on using `list` for matrices
 
 + [matrix](matrix.py)
@@ -8,3 +8,4 @@ intermediate examples on using `list` for matrices
 + [add_matrix](add_matrix.py)
 + [sub_matrix](sub_matrix.py)
 + [mul_matrix](mul_matrix.py)
++ [map_matrix](map_matrix.py)

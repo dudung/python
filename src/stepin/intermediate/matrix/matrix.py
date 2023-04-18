@@ -78,3 +78,14 @@ def mul(x, y):
         s += x[i][k] * y[k][j]
       z[i][j] = s
   return z
+
+
+# map input matrix to output one via a function
+def map(x, f):
+  rnum = len(x)
+  cnum = len(x[0])
+  y = zero(rnum, cnum)
+  for r in range(rnum):
+    for c in range(cnum):
+      y[r][c] = f(x[r][c])
+  return y
