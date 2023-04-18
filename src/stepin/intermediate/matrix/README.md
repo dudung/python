@@ -1,4 +1,4 @@
-# matrix (6)
+# matrix (7)
 intermediate examples on using `list` for matrices
 
 + [matrix](matrix.py)
