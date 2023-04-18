@@ -5,4 +5,4 @@ step in to learn python and non-python codes
 + [nonpython](nonpython/README.md) (51)
 + [examples](examples/README.md) (8)
 + [varscope](varscope/README.md) (19)
-+ [intermediate](intermediate/README.md) (60)
++ [intermediate](intermediate/README.md) (61)
