@@ -1,10 +1,17 @@
-def createZeroMatrix(rnum, cnum):
-  c = 0
-  r = [c] * cnum
-  m = [r] * rnum
+# create zero matrix with rnum rows and cnum columns
+def zero(rnum, cnum):
+  m = []
+  for r in range(rnum):
+    r = []
+    for c in range(cnum):
+      c = 0
+      r.append(c)
+    m.append(r)
   return m
 
-def strMatrix(m, fmt=".2e"):
+
+# get string representation of matrix
+def mat2str(m, fmt=".2e"):
   mstr = ""
   rnum = len(m)
   cnum = len(m[0])
@@ -18,29 +25,40 @@ def strMatrix(m, fmt=".2e"):
     mstr += rstr
   return mstr
 
-def appendRows(x, y):
+
+# stack rows of two matrices 
+def stackrows(x, y):
   z = x + y
   return z
 
-def appendColumns(x, y):
-  z = x + y
+
+# stack columns of two matrices 
+def stackcols(x, y):
+  rnum = len(x)
+  cnum = len(y[0])
+  z = x.copy()
+  for r in range(rnum):
+    for c in range(cnum):
+      z[r].append(y[r][c])
   return z
 
 
-m1 = createZeroMatrix(3, 2)
-print(m1)
+# addition of two matrices 
+def add(x, y):
+  rnum = min(len(x), len(y))
+  cnum = min(len(x[0]), len(y[0]))
+  z = zero(rnum, cnum)
+  for i in range(rnum):
+    for j in range(cnum):
+      z[i][j] = x[i][j] + y[i][j]
+  return z
 
-m2 = createZeroMatrix(1, 2)
-print(m2)
-
-m3 = appendRows(m1, m2)
-print(m3)
-
-n1 = createZeroMatrix(3, 2)
-print(n1)
-
-n2 = createZeroMatrix(3, 1)
-print(n2)
-
-n3 = appendColumns(n1, n2)
-print(n3)
+# substraction of two matrices 
+def sub(x, y):
+  rnum = min(len(x), len(y))
+  cnum = min(len(x[0]), len(y[0]))
+  z = zero(rnum, cnum)
+  for i in range(rnum):
+    for j in range(cnum):
+      z[i][j] = x[i][j] - y[i][j]
+  return z
