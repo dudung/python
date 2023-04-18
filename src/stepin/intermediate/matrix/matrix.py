@@ -26,13 +26,13 @@ def mat2str(m, fmt=".2e"):
   return mstr
 
 
-# stack rows of two matrices 
+# stack rows of two matrices -- to-do unmacth dimension
 def stackrows(x, y):
   z = x + y
   return z
 
 
-# stack columns of two matrices 
+# stack columns of two matrices -- to-do unmacth dimension
 def stackcols(x, y):
   rnum = len(x)
   cnum = len(y[0])
@@ -43,7 +43,7 @@ def stackcols(x, y):
   return z
 
 
-# addition of two matrices 
+# addition of two matrices -- to-do unmacth dimension
 def add(x, y):
   rnum = min(len(x), len(y))
   cnum = min(len(x[0]), len(y[0]))
@@ -53,7 +53,8 @@ def add(x, y):
       z[i][j] = x[i][j] + y[i][j]
   return z
 
-# substraction of two matrices 
+
+# substraction of two matrices -- to-do unmacth dimension
 def sub(x, y):
   rnum = min(len(x), len(y))
   cnum = min(len(x[0]), len(y[0]))
@@ -61,4 +62,19 @@ def sub(x, y):
   for i in range(rnum):
     for j in range(cnum):
       z[i][j] = x[i][j] - y[i][j]
+  return z
+
+
+# multiplication of two matrices -- to-do unmacth dimension
+def mul(x, y):
+  rnum = len(x)
+  mnum = min(len(x[0]), len(y))
+  cnum = len(y[0])
+  z = zero(rnum, cnum)
+  for i in range(rnum):
+    for j in range(cnum):
+      s = 0
+      for k in range(mnum):
+        s += x[i][k] * y[k][j]
+      z[i][j] = s
   return z

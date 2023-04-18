@@ -7,3 +7,4 @@ intermediate examples on using `list` for matrices
 + [stack_matrix_rows](stack_matrix_rows.py)
 + [add_matrix](add_matrix.py)
 + [sub_matrix](sub_matrix.py)
++ [mul_matrix](mul_matrix.py)
