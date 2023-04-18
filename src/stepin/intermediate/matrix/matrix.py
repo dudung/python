@@ -89,3 +89,23 @@ def map(x, f):
     for c in range(cnum):
       y[r][c] = f(x[r][c])
   return y
+
+
+# transpose a matrix
+def tpose(x):
+  rnum = len(x)
+  cnum = len(x[0])
+  y = zero(cnum, rnum)
+  for r in range(rnum):
+    for c in range(cnum):
+      y[c][r] = x[r][c]
+  return y
+
+
+# trace of a square matrix
+def tpose(x):
+  num = len(x)
+  y = 0
+  for i in range(num):
+    y += x[i][i]
+  return y
