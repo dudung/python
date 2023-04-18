@@ -12,7 +12,6 @@ ll.insert(0, 6);   print(ll.list())
 
 """
 $ python linkedlist_insert.py
-linkedlist_insert.py
 []
 [9]
 [7, 9]
