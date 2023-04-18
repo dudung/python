@@ -1,4 +1,4 @@
-# matrix (10)
+# matrix (11)
 intermediate examples on using `list` for matrices
 
 + [matrix](matrix.py)
@@ -11,3 +11,4 @@ intermediate examples on using `list` for matrices
 + [map_matrix](map_matrix.py)
 + [tpose_matrix](tpose_matrix.py)
 + [trace_matrix](trace_matrix.py)
++ [get_info_matrix](get_info_matrix.py)

@@ -109,3 +109,10 @@ def trace(x):
   for i in range(num):
     y += x[i][i]
   return y
+
+
+# get number of rows and colums of a matrix
+def getinfo(m):
+  rnum = len(m)
+  cnum = len(m[0])
+  return rnum, cnum
