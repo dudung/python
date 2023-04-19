@@ -6,3 +6,4 @@ python intermediate examples, simple artificial neural network
 + [layers_21_matrix_and](layers_21_matrix_and.py)
 + [layers_2321](layers_2321.md)
 + [layers_2321_feedforward](layers_2321_feedforward.py)
++ [layers_2321_ff_rand_w](layers_2321_ff_rand_w.py)
