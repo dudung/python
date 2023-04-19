@@ -1,4 +1,4 @@
-# getter_setter (11)
+# getter_setter (12)
 examples on getter and setter
 
 + [notation](notation.py)
@@ -12,7 +12,7 @@ examples on getter and setter
 + [private2_mangling](private2_mangling.py)
 + [id4d](id4d.py)
 + [id4d_property](id4d_property.py)
-
++ [id4d_property_v2](id4d_property_v2.py)
 
 <!--
 https://realpython.com/python-getter-setter/
