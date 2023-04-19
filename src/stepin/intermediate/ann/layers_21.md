@@ -1,19 +1,40 @@
 # layers_21
 ```mermaid
 flowchart LR
-  subgraph X<sub>1</sub>
+  subgraph X
     direction LR
-    x11((x<sub>11</sub>))
-    x12((x<sub>12</sub>))
+    x1((x<sub>1</sub>))
+    x2((x<sub>2</sub>))
   end
-  subgraph X<sub>2</sub>
+  subgraph Y
     direction LR
-    x21((x<sub>21</sub>))
+    y1((y<sub>1</sub>))
   end
-  x11 --> x21
-  x12 --> x21
+  x1 --"w<sub>11</sub>"--> y1
+  x2 --"w<sub>12</sub>"--> y1
 ```
 
+$$\tag{1}
+\mathbf{Y}_{(1×1)} = f(\mathbf{W}_{(1×2)} \mathbf{X}_{(2×1)})
 $$
-\mathbf{X}_2 = f(\mathbf{W}_{21} \mathbf{X}_1)
+
+$$\tag{2}
+\left[
+\begin{array}{c}
+y_1
+\end{array}
+\right] = \left[
+\begin{array}{cc}
+w_{11} & w_{12}
+\end{array}
+\right] \left[
+\begin{array}{c}
+x_1 \newline
+x_2
+\end{array}
+\right]
+$$
+
+$$\tag{3}
+f(z) = \frac{1}{1 + e^{-z}}
 $$
