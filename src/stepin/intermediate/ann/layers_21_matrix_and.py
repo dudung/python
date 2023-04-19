@@ -13,7 +13,7 @@ X = [
 ]
 
 W = [
-  [100, 100]
+  [0.845, 0.845]
 ]
 
 Z = mtx.mul(W, X)
@@ -25,10 +25,15 @@ print()
 [print(row) for row in W]
 print()
 
-[print(row) for row in Y]
+[print([f"{i:.1f}" for i in row]) for row in Y]
 
 
 """
 $ python layers_21_matrix_and.py
+[0, 0, 1, 1]
+[0, 1, 0, 1]
 
+[0.845, 0.845]
+
+['0.5', '0.7', '0.7', '0.8']
 """
