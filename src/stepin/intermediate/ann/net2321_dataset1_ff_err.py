@@ -24,16 +24,15 @@ dl.randomize(W43)
 
 X2 = mtx.map(mtx.mul(W21, X1), dl.sigmoid)
 X3 = mtx.map(mtx.mul(W32, X2), dl.sigmoid)
-X4 = mtx.map(mtx.mul(W43, X3), dl.sigmoid)
+X4 = mtx.map(mtx.mul(W43, X3), dl.relu)
 
 YC = mtx.tpose(X4)
 dl.roundmat(YC, 3)
-
-print(Y)
-print(YC)
-
-erri = dl.sqrdiff(Y, Y)
-print(erri)
+erri = dl.sqrdiff(YC, Y)
+dl.roundmat(erri, 3)
+print("erri =", erri)
+err = sum(mtx.tpose(erri)[0])
+print("total =", err)
 
 
 """
