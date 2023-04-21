@@ -53,3 +53,18 @@ def sqrdiff(x, y): # to-do mismatch dimension of x and y matrices
       row.append(sqr)
     m.append(row)
   return m
+
+def mulscalar(z):
+  eta = 0.001
+  return -eta * z
+
+def grad(dval, dm):
+  rnum = len(dm)
+  cnum = len(dm[0])
+  g = []
+  for i in range(rnum):
+    row = []
+    for j in range(cnum):
+      row.append(dval / dm[i][j])
+    g.append(row)
+  return g
