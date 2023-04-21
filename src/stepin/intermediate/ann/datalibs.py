@@ -30,3 +30,17 @@ def sigmoid(z):
 
 def relu(z):
   return max(0, x)
+
+def sqrdiff(x, y): # to-do mismatch dimension of x and y matrices
+  rnum = min(len(x), len(y))
+  cnum = min(len(x[0]), len(y[0]))
+  print(rnum, cnum)
+  m = []
+  for i in range(rnum):
+    row = []
+    for j  in range(cnum):
+      diff = x[i][j] - y[i][j]
+      sqr = diff * diff
+      row.append(sqr)
+    m.append(row)
+  return m

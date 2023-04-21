@@ -32,7 +32,7 @@ dl.roundmat(YC, 3)
 print(Y)
 print(YC)
 
-erri = dl.sqrdiff(X4, Y)
+erri = dl.sqrdiff(Y, Y)
 print(erri)
 
 
