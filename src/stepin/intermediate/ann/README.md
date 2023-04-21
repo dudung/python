@@ -1,4 +1,4 @@
-# ann (12)
+# ann (13)
 python intermediate examples, simple artificial neural network
 
 + [layers_21](layers_21.md)
@@ -13,3 +13,4 @@ python intermediate examples, simple artificial neural network
 + [prepare_data](prepare_data.py)
 + [net2321_dataset1_ff](net2321_dataset1_ff.py)
 + [net2321_dataset1_ff_err](net2321_dataset1_ff_err.py)
++ [net2321_dataset1_ff_wchg](net2321_dataset1_ff_wchg.py)
