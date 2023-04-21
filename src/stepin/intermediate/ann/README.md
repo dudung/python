@@ -11,4 +11,4 @@ python intermediate examples, simple artificial neural network
 + [datalibs](datalibs.py)
 + [import_data](import_data.py)
 + [prepare_data](prepare_data.py)
-+ [dataset1_feedforward_2321](dataset1_feedforward_2321.py)
++ [net2321_dataset1_ff](net2321_dataset1_ff.py)
