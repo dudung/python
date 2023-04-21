@@ -1,5 +1,6 @@
 import random
 import math
+import copy
 
 def randomize(m):
   rnum = len(m)
@@ -7,6 +8,15 @@ def randomize(m):
   for r in range(rnum):
     for c in range(cnum):
       m[r][c] = 0.01 * random.randint(-100, 100)
+
+def randomized(n):
+  m = copy.deepcopy(n)
+  rnum = len(m)
+  cnum = len(m[0])
+  for r in range(rnum):
+    for c in range(cnum):
+      m[r][c] = 0.01 * random.randint(-100, 100)
+  return m
 
 def roundmat(m, ndigits):
   rnum = len(m)
