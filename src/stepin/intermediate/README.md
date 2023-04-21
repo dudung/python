@@ -9,3 +9,4 @@ some intermediate examples
 + [matrix](matrix/README.md) (11)
 + [rel_import](rel_import/README.md) (4)
 + [ann](ann/README.md) (14)
++ [network](network/README.md) (0)
