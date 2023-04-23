@@ -18,7 +18,7 @@ print(ann)
 
 print()
 print("Matrices and functions:")
-ann.create_matrices()
+ann._create_matrices()
 k = 0
 for i in ann.matrices:
   for j in i:

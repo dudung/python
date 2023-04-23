@@ -55,7 +55,7 @@ class Network:
     else:
       pass
   
-  def create_matrices(self):
+  def __create_matrices(self):
     if self.readonly:
       for i in range(len(self.layers)-1):
         rnum = self.layers[i+1]
