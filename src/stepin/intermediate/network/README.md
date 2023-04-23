@@ -1,4 +1,4 @@
-# network (8)
+# network (9)
 python intermediate examples, network for simple ann
 
 + [data](data.py)
@@ -9,3 +9,4 @@ python intermediate examples, network for simple ann
 + [net_matrix](net_matrix.py)
 + [net_data](net_data.py)
 + [net_feedforward](net_feedforward.py)
++ [net_backpropagation](net_backpropagation.py)
