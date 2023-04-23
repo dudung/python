@@ -2,7 +2,7 @@ import actfunc as af
 from network import Network
 from data import dataset1 as set1
 
-ann = Network("ANN_test_2")
+ann = Network("ANN_test_3")
 
 ann.add_input_layer(2)
 ann.add_hidden_layer(3, af.sigmoid)
