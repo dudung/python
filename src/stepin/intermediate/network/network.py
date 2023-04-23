@@ -1,15 +1,13 @@
 class Network:
-  def __init__(self);
+  def __init__(self):
     self.n = 0
     self.layers = []
     self.functions = []
     self.readonly = False
     
   def __str__(self):
-    lines = "Number of layers = " + str(self.n) + '\n'
-    if self.n > 0:
-      for i in range(self.n):
-        lines += "Layer-" + str(i+1) + ": " + self.str(layers[i]) + '\n'
+    lines = f"Layers: {self.layers}\n"
+    lines += f"Functions: {self.functions}"
     return lines
   
   def add_input_layer(self, num_neurons):
