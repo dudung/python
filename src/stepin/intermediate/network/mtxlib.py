@@ -1,6 +1,7 @@
 import copy
 import random
 import math
+import mtxlib as mtx
 
 # create zero matrix with rnum rows and cnum columns
 def zero(rnum, cnum):
@@ -31,6 +32,14 @@ def mat2str(m, fmt=".2e"):
 # stack rows of two matrices -- to-do unmacth dimension
 def stackrows(x, y):
   z = x + y
+  return z
+
+def stackrows2(x):
+  rnum = len(x[0])
+  cnum = len(x[0][0])
+  z = x[0]
+  for i in x[1:]:
+    z = z + i
   return z
 
 # stack columns of two matrices -- to-do unmacth dimension

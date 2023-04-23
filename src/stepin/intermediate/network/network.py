@@ -1,4 +1,5 @@
 import mtxlib as mtx
+import copy
 
 class Network:
   def __init__(self, name):
@@ -11,7 +12,10 @@ class Network:
     self.validation = []
     self.testing = []
     self.matrices = []
-    
+    self.X = None
+    self.Y = None
+    self.Z = None
+  
   def __str__(self):
     lines = f"{self.name}\n"
     lines += f"Layers: {self.layers}\n"
@@ -55,7 +59,7 @@ class Network:
     else:
       pass
   
-  def __create_matrices(self):
+  def _create_matrices(self):
     if self.readonly:
       for i in range(len(self.layers)-1):
         rnum = self.layers[i+1]
@@ -64,3 +68,31 @@ class Network:
         m = mtx.randomized(m)
         mtx.roundmat(m, 3)
         self.matrices.append(m)
+  
+  def _prepare_data(self):
+    if self.readonly:
+      nx = self.layers[0]
+      
+      x = []
+      for i in range(nx):
+        x.append([mtx.columnof(i, self.testing)])
+      X = mtx.stackrows2(x)
+      
+      z = mtx.columnof(nx, self.testing)
+      Z = mtx.tpose([z])
+      
+      self.X = X
+      self.Z = Z
+  
+  def _feedforward(self):
+    if self.readonly:
+      X = copy.deepcopy(self.X)
+      
+      nm = len(self.matrices)
+      for i in range(nm):
+        W = self.matrices[i]
+        f = self.functions[i]
+        Y = mtx.map(mtx.mul(W, X), f)
+        X = copy.deepcopy(Y)
+      
+      self.Y = Y
