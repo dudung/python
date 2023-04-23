@@ -4,7 +4,7 @@ import math
 def binary_step(z):
   if z >= 0:
     return 1
-  else
+  else:
     return 0
 
 # 02
@@ -20,35 +20,35 @@ def tanh(z):
   return math.tanh(z)
 
 # 05
-def relu(z)
+def relu(z):
   return max(0, z)
 
 # 06
 def leaky_relu(z):
   if x >= 0:
     return x
-  else
+  else:
     return 0.01 * x
 
 # 07
 def param_relu(z, a=0.1):
   if x >= 0:
     return x
-  else
+  else:
     return a * x
 
 # 08
 def elu(z, a=1):
   if x >= 0:
     return x
-  else
+  else:
     return a * (math.exp(x) - 1)
 
 # 09
 def selu(z, a=1, b=1):
   if x >= 0:
     return b * x
-  else
+  else:
     return b * a * (math.exp(x) - 1)
 
 # 10
@@ -106,7 +106,7 @@ def hard_tanh(z):
 def bipolar(z):
   if z < 0:
     return -1
-  else
+  else:
     return 1
 
 # 23

@@ -126,7 +126,7 @@ def randomized(n):
   cnum = len(m[0])
   for r in range(rnum):
     for c in range(cnum):
-      m[r][c] = 0.01 * random.randint(-100, 100)
+      m[r][c] = 0.001 * random.randint(-1000, 1000)
   return m
 
 # round matrix element to float with some digits
