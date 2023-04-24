@@ -1,4 +1,4 @@
-# network (9)
+# network (10)
 python intermediate examples, network for simple ann
 
 + [data](data.py)
@@ -10,3 +10,4 @@ python intermediate examples, network for simple ann
 + [net_data](net_data.py)
 + [net_feedforward](net_feedforward.py)
 + [net_mse](net_mse.py)
++ [hadamard_product](hadamard_product.py)

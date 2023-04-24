@@ -1,6 +1,7 @@
 import actfunc as af
 from network import Network
 from data import dataset1 as set1
+import mtxlib as mtx
 
 ann = Network("ANN_test_3")
 
@@ -18,9 +19,13 @@ ann.add_dataset(set1[0:1], set="training")
 ann._create_matrices()
 ann._prepare_data()
 ann._feedforward()
-print("X (input) =", ann.X)
 print("Y (calc) =", ann.Y)
 print("Z (data) =", ann.Z)
+
+mse = mtx.mse(ann.Y, ann.Z)
+print("MSE =", mse)
+
+
 
 
 """

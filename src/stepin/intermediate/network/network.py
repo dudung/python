@@ -79,7 +79,7 @@ class Network:
       X = mtx.stackrows2(x)
       
       z = mtx.columnof(nx, self.testing)
-      Z = mtx.tpose([z])
+      Z = [z]
       
       self.X = X
       self.Z = Z

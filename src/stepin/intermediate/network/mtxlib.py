@@ -183,3 +183,21 @@ def grad(dval, dm):
       row.append(dval / dm[i][j])
     g.append(row)
   return g
+
+# calculate mse
+def mse(ycal, yobs):
+  n = max(getinfo(ycal))
+  def f(z): return z / (2 * n)
+  dy = sub(ycal, yobs)
+  dy2 = mul(dy, tpose(dy))
+  avgdy2 = map(dy2, f)
+  return avgdy2[0][0]
+
+# do hadamard product, element-wise product, schur product
+def hadamard(x, y):
+  n = getinfo(x)
+  z = zero(n[0], n[1])
+  for i in range(n[0]):
+    for j in range(n[1]):
+      z[i][j] = x[i][j] * y[i][j]
+  return z
