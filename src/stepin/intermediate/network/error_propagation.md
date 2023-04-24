@@ -6,6 +6,8 @@ some equations to perform error propagation
 Using equation in Appendix A we can have following derivation
 
 $$\tag{B1}
+\begin{array}{rcl}
+\end{array}
 $$
 
 
