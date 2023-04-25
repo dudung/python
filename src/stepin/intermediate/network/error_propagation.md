@@ -29,8 +29,7 @@ $$\tag{5}
 w^l \rightarrow w^l - \frac{\eta}{m} \sum_x \delta^{x, l} (a^{x, l-1})^T
 $$
 
-
-
+The notation is according to (Nielsen, 2019), which might be difference than other part of this topic.
 
 
 ## appendix a
@@ -143,3 +142,6 @@ $$\tag{B5}
 \end{array}
 $$
 
+
+## refs
++ Michael Nielsen, "How the backpropagation algorithm works" in Neural Networks and Deep Learning, Ch 2, Dec 2019, url http://neuralnetworksanddeeplearning.com/chap2.html [20230426].
