@@ -1,4 +1,4 @@
-# network (12)
+# network (13)
 python intermediate examples, network for simple ann
 
 + [data](data.py)
@@ -13,3 +13,4 @@ python intermediate examples, network for simple ann
 + [hadamard_product](hadamard_product.py)
 + [architecture_ff](architecture_ff.md)
 + [error_propagation](error_propagation.md)
++ [err_propag_impl_plan](err_propag_impl_plan.md)
