@@ -34,6 +34,7 @@ $$
 \color{#ff0}\mathbf{X}_3^x & = & f(\mathbf{W}_{32} \color{#f0f}\mathbf{X}_2^x) \newline
 \color{#0ff}\mathbf{X}_4^x & = & f(\mathbf{W}_{43} \color{#ff0}\mathbf{X}_3^x) \newline
 \color{#0f0}\mathbf{X}_5^x & = & f(\mathbf{W}_{54} \color{#0ff}\mathbf{X}_4^x) \newline
-\color{#f88}\mathbf{C}^x & = & \displaystyle \frac12 \lvert \mathbf{Y}^x - \color{#0f0}\mathbf{X}_5^x \rvert^2
+\color{#f88}\mathbf{C}^x & = & \displaystyle \frac12 \lvert \mathbf{Y}^x - \color{#0f0}\mathbf{X}_5^x \rvert^2 \newline
+\color{#f88}\mathbf{C} & = & \displaystyle \frac{1}{m} \sum_{x = 1}^m \color{#f88}\mathbf{C}^x
 \end{array}
 $$
