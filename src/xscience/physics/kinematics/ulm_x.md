@@ -13,7 +13,7 @@ $$
 
 It is not necessary that $t_0 = 0$, but it is common to use that value.
 
-Let choose $t_0 = 1$, $x_0 = 3$, $v = 2$, and calculate from $t_{\rm beg} = 0$ until $t_{\rm end} = 4$.
+Let choose $t_0 = 1$, $x_0 = 3$, $v = 2$, and calculate $x$ for time $t$ from $t_{\rm beg} = 0$ until $t_{\rm end} = 4$.
 
 
 ```shell
