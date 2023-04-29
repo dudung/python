@@ -1,5 +1,4 @@
-# kinematics (1)
+# kinematics (0)
 concepts in kinematics and how python can help to study it
 
-+ [ulm_x](ulm_x.md)
-+ [ulm_v](ulm_v.md)
++ [uniform_linear_motion](uniform_linear_motion/README.md)
