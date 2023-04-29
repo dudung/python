@@ -6,3 +6,4 @@ some python and non-python codes
 + [apply](apply/README.md) (6)
 + [share](share/README.md) (0)
 + [ease](ease/README.md) (1)
++ [xscience](xscience/README.md) (0)
