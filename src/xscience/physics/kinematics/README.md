@@ -1,4 +1,4 @@
-# kinematics (4)
+# kinematics (5)
 concepts in kinematics and how python can help to study it
 
-+ [uniform_linear_motion](uniform_linear_motion/README.md) (4)
++ [uniform_linear_motion](uniform_linear_motion/README.md) (5)
