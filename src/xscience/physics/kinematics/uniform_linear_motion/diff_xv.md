@@ -1,4 +1,4 @@
-# differentiate
+# diff_xv
 $$\tag{1}
 v = \frac{dx}{dt}
 $$
