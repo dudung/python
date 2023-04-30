@@ -20,7 +20,7 @@ $$
 
 
 ```shell
-$ ../../../../../mdgnu.sh graph_xvat.md
+$ ../../../../../scripts/mdgnu.sh graph_xvat.md
 ```
 
 

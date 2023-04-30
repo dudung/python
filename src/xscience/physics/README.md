@@ -1,4 +1,4 @@
-# physics (5)
+# physics (6)
 concepts in physics and how python can help to study it
 
-+ [kinematics](kinematics/README.md) (5)
++ [kinematics](kinematics/README.md) (6)

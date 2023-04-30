@@ -1,4 +1,4 @@
-# ulm_vars
+# vars
 $$\tag{1}
 x = x_0 + v \cdot (t - t_0)
 $$

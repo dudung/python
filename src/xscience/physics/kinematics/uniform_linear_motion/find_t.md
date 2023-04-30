@@ -1,4 +1,4 @@
-# ulm_t
+# find_t
 Relation among time $t$ with position $x$, initial position $x_0$ at time $t_0$ and velocity is as follow
 
 $$\tag{1}

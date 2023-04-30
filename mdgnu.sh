@@ -1,1 +1,0 @@
-cat $1 | sed '0, /```gnuplot/d; /```/Q' | gnuplot
