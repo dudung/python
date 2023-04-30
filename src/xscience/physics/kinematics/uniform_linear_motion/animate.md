@@ -1,4 +1,11 @@
 # animate
+![](animate.svg)
+
+$$
+x = x_0 + v t
+$$
+
+```svg
 <svg
   width="260" height="100"
   viewbox="0 0 260 100"
@@ -54,8 +61,4 @@
     />
   </text>
 </svg>
-
-
-$$
-x = x_0 + v t
-$$
+```
