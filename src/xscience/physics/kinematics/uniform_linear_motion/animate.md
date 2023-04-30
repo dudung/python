@@ -2,7 +2,7 @@
 <svg
   width="260" height="100"
   viewbox="0 0 260 100"
-  style="border: 1px solid #fff;">
+  style="border: 0px solid #fff;">
     <defs>
     <marker id="arrowhead" markerWidth="5" markerHeight="4" 
     refX="0" refY="2" orient="auto">
@@ -22,7 +22,12 @@
       keyTimes="0 ; 0.25 ; 0.75 ; 1"
     />
   </line>
-  <text x="8" y="90" fill="#888" font-size="1em">x_0</text>
+  <text x="14" y="85" fill="#888" font-size="1em">
+    <tspan font-family="Times">
+      <tspan font-style="italic">x</tspan>
+      <tspan baseline-shift="sub" font-size="0.8em">0</tspan>
+    </tspan>
+  </text>
   <rect x="2" y="30" width="40" height="40"
     stroke="#00a" stroke-width="2"
     fill="#55e" fill-opacity=".5">
@@ -32,34 +37,22 @@
       keyTimes="0 ; 0.25 ; 0.75 ; 1"
     />
   </rect>
-  <text x="16" y="20" fill="#888" font-size="1em">x
+  <text x="16" y="20" fill="#888" font-size="1em">
+    <tspan font-family="Times" font-style="Italic">x</tspan>
     <animate attributeName="x" dur="4s"
       repeatCount="indefinite"
       values="16 ; 16 ; 176 ; 176"
       keyTimes="0 ; 0.25 ; 0.75 ; 1"
     />
   </text>
-  <text x="80" y="55" fill="#888" font-size="1em">v
+  <text x="80" y="55" fill="#888" font-size="1em">
+    <tspan font-family="Times" font-style="Italic">v</tspan>
     <animate attributeName="x" dur="4s"
       repeatCount="indefinite"
       values="80 ; 80 ; 240 ; 240"
       keyTimes="0 ; 0.25 ; 0.75 ; 1"
     />
   </text>
-
-  <foreignObject x="20" y="20" width="160" height="160">
-    <!--
-      In the context of SVG embedded in an HTML document, the XHTML
-      namespace could be omitted, but it is mandatory in the
-      context of an SVG document
-    -->
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis mollis
-      mi ut ultricies. Nullam magna ipsum, porta vel dui convallis, rutrum
-      imperdiet eros. Aliquam erat volutpat.
-    </div>
-  </foreignObject>
-
 </svg>
 
 
