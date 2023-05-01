@@ -1,4 +1,4 @@
-# uniform_linear_motion (7)
+# uniform_linear_motion (8)
 concepts in uniform linear motion and how python can help to study it
 
 + [animate](animate.md)
