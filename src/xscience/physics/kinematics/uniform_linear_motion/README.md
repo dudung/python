@@ -8,4 +8,4 @@ concepts in uniform linear motion and how python can help to study it
 + [find_t](find_t.md)
 + [graph_xvat](graph_xvat.md)
 + [diff_xv](diff_xv.md)
-+ [find_x_list](find_x_list.md)
++ [find_x_eg](find_x_eg.md)
