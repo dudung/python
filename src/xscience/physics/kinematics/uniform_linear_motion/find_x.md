@@ -17,7 +17,7 @@ Let choose $t_0 = 1$, $x_0 = 3$, $v = 2$, and calculate $x$ for time $t$ from $t
 
 
 ```shell
-$ ./mdpy.sh ulm_x.md
+$  ../../../../../scripts/mdpy.sh find_x.md
 t       x
 0       1
 1       3

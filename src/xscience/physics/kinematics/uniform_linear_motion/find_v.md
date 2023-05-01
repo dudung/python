@@ -19,7 +19,7 @@ Let choose $t = \{0, 1, 2, 3, 4\}$, $x = \{1, 3, 5, 7, 9\}$ and calculate $v$ fo
 
 
 ```shell
-$ /mdpy.sh ulm_v.md
+$  ../../../../../scripts/mdpy.sh find_v.md
 t       v
 0       2.0
 1       2.0

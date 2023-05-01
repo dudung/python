@@ -5,7 +5,7 @@ $$
 
 
 ```shell
-$  ../../../../../scripts/mdpy.sh diff_xv.md
+$  ../../../../../scripts/mdpy.sh find_x_eg.md
 t0 = [0, 1, 2, 3, 4]
 v0 = [2, 1, 3, 1, 2]
 x0 = [4, 2, 5, 3, 8]

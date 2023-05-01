@@ -17,7 +17,7 @@ Let choose $x = \{1, 3, 5, 7, 9\}$, $v = 2$, $x_0 = 3$, $t_0 = 1$ and calculate 
 
 
 ```shell
-$ /mdpy.sh ulm_t.md
+$  ../../../../../scripts/mdpy.sh find_t.md
 x       t
 1       0.0
 3       1.0
