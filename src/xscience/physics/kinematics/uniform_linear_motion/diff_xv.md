@@ -19,3 +19,26 @@ a & = & \displaystyle \frac{dv}{dt} \newline
 & = & 0
 \end{array}
 $$
+
+
+```shell
+$  ../../../../../scripts/mdpy.sh diff_xv.md
+x = v0*(t - t0) + x0
+v = v0
+a = 0
+```
+
+
+```python
+from sympy import *
+x, v, a, t, x0, v0, t0 = symbols("x v a t x0 v0 t0")
+
+x = x0 + v0 * (t - t0)
+print("x =", x)
+
+v = diff(x, t)
+print("v =", v)
+
+a = diff(v, t)
+print("a =", a)
+```
