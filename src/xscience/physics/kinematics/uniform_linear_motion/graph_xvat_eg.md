@@ -1,4 +1,4 @@
-# graph_xvat
+# graph_xvat_eg
 
 $$\tag{1}
 x(t) = x_0 + v_0 \cdot (t - t_0)
