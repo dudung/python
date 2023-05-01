@@ -9,4 +9,5 @@ concepts in uniform linear motion and how python can help to study it
 + [graph_xvat](graph_xvat.md)
 + [diff_xv](diff_xv.md)
 + [find_x_eg](find_x_eg.md)
-+ [graph_xvat_eg](graph_xvat_eg.md)
++ [graph_xvat_eg_1](graph_xvat_eg_1.md)
++ [graph_xvat_eg_2](graph_xvat_eg_2.md)
