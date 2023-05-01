@@ -1,5 +1,4 @@
-# graph_xvat_eg
-
+# graph_xvat_eg_1
 $$
 x_0 = 10, \ \ \ \ t_0 = 2
 
@@ -7,9 +6,9 @@ $$
 
 $v_0 = -5$ | $v_0 = 0$ | $v_0 = 5$
 :-: | :-: | :-:
-![](xt1.svg) | ![](xt2.svg) | ![](xt3.svg)
-![](vt1.svg) | ![](vt2.svg) | ![](vt3.svg)
-![](at1.svg) | ![](at2.svg) | ![](at3.svg)
+![](img/xt1.svg) | ![](img/xt2.svg) | ![](img/xt3.svg)
+![](img/vt1.svg) | ![](img/vt2.svg) | ![](img/vt3.svg)
+![](img/at1.svg) | ![](img/at2.svg) | ![](img/at3.svg)
 
 
 
@@ -18,7 +17,7 @@ $ ../../../../../scripts/mdgnu.sh graph_xvat_eg.md
 ```
 
 
-```gnuplot
+```bash
 set term svg size 180,200 font "Times, 16" enhanced
 set grid
 set tics scale 0.4

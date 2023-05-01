@@ -1,5 +1,5 @@
 # animate
-![](animate.svg)
+![](img/animate.svg)
 
 $$
 x = x_0 + v t

@@ -1,4 +1,4 @@
-# uniform_linear_motion (9)
+# uniform_linear_motion (11)
 concepts in uniform linear motion and how python can help to study it
 
 + [animate](animate.md)
@@ -11,3 +11,4 @@ concepts in uniform linear motion and how python can help to study it
 + [find_x_eg](find_x_eg.md)
 + [graph_xvat_eg_1](graph_xvat_eg_1.md)
 + [graph_xvat_eg_2](graph_xvat_eg_2.md)
++ [graph_xvat_eg_3](graph_xvat_eg_3.md)
