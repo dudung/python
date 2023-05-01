@@ -1,4 +1,4 @@
-# eg_find_x
+# find_x_list
 $$\tag{4}
 x = (x_0 - v_0 \ t_0) + v_0 \ t
 $$
