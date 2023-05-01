@@ -18,3 +18,23 @@ a & = & \displaystyle \frac{dv}{dt} \newline
 & = & 0
 \end{array}
 $$
+
+$$\tag{4}
+\begin{array}{rcl}
+x & = & (x_0 - v_0 \ t_0) + v_0 \ t \newline
+\end{array}
+$$
+
+
+```python
+t0 = [1, 0, 2, 1, 0]
+v0 = [2, 1, 3, 2, 2]
+x0 = [4, 0, 8, 4, 1]
+
+N = min(len(t0), len(v0), len(x0))
+
+print("t\tx1\tx2\tx3\tx4\tx5")
+for i in range(N):
+tt = i
+
+```
