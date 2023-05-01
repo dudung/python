@@ -1,15 +1,15 @@
 # graph_xvat_eg
 
 $$
-x_0 = 10, \ \ \ \ t_0 = 2
+x_0 = 10, \ \ \ \ v_0 = 5
 
 $$
 
-$v_0 = -5$ | $v_0 = 0$ | $v_0 = 5$
+$t_0 = 2$ | $t_0 = 4$ | $t_0 = 6$
 :-: | :-: | :-:
-![](xt1.svg) | ![](xt2.svg) | ![](xt3.svg)
-![](vt1.svg) | ![](vt2.svg) | ![](vt3.svg)
-![](at1.svg) | ![](at2.svg) | ![](at3.svg)
+![](xt4.svg) | ![](xt5.svg) | ![](xt6.svg)
+![](vt4.svg) | ![](vt5.svg) | ![](vt6.svg)
+![](at4.svg) | ![](at5.svg) | ![](at6.svg)
 
 
 
@@ -32,20 +32,20 @@ rcolor = '#0000ff'
 vcolor = '#00ff00'
 acolor = '#ff0000'
 
+v_0 = 5
 x_0 = 10
-t_0 = 2
 set xrange [-0.5:6.5]
 set xtics 2
 
 do for [i = 1:3] {
   j = -5 + 5*(i - 1)
   
-  v_0 = j
+  t_0 = 2 * i
   r(t) = x_0 + v_0 * (t - t_0)
   v(t) = v_0
   a(t) = 0
   
-  num = i
+  num = i + 3
   
   set output 'xt'.num.'.svg'
   set ylabel "{/Times:Italic x}"
