@@ -1,6 +1,6 @@
 # constant
 $$\tag{1}
-\lim_{x \to a} c = c, \ \ \ \ c \ne c(x)
+\lim_{x \to a} c = c
 $$
 
 
