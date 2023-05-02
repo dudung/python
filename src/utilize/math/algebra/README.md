@@ -1,4 +1,4 @@
-# algebra (0)
+# algebra (1)
 concepts in algebra and how python can help to study it
 
-+ [function](function/README.md) (0)
++ [function](function/README.md) (1)
