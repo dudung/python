@@ -42,13 +42,13 @@ print()
 
 # symbolic method
 from sympy import *
-c = symbols("c")
-f = Function('f')(x)
+x, c = symbols("x c")
+f = Function('f')
 f = c
 print("f(x) =", f)
 
 print("x\tf(x)")
-for x in nums:
-  print(x, f.subs(x, x), sep='\t')
+for i in nums:
+  print(i, f.subs(x, i), sep='\t')
 print()
 ```
