@@ -1,5 +1,5 @@
-# math (3)
+# math (5)
 concepts in mathematics and how python can help to study it
 
-+ [algebra](algebra/README.md) (2)
++ [algebra](algebra/README.md) (4)
 + [calculus](calculus/README.md) (1)
