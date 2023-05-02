@@ -1,6 +1,6 @@
 # constant
 $$\tag{1}
-f(x) = c, \ \ \ \ \frac{dc}{dx} = 0
+f(x) = c
 $$
 
 ```shell
@@ -43,7 +43,6 @@ print()
 # symbolic method
 from sympy import *
 x, c = symbols("x c")
-f = Function('f')
 f = c
 print("f(x) =", f)
 
