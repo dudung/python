@@ -1,9 +1,10 @@
-# math (14)
+# math (16)
 import and use python math libraries
 
++ [pi](pi.md)
++ [e](e.md)
 + [sqrt](sqrt.md)
 + [pow](pow.md)
-+ [pi](pi.md)
 + [sin](sin.md)
 + [cos](cos.md)
 + [tan](tan.md)
@@ -15,4 +16,4 @@ import and use python math libraries
 + [floor](floor.md)
 + [trunc](trunc.md)
 + [radians](radians.md)
-+ degrees
++ [degrees](degrees.md)

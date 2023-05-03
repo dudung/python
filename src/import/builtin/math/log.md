@@ -1,7 +1,7 @@
 # log
 
 $$\tag{1}
-y = ^{e}\log x \equiv \ln x
+y = ^{\rm e}\log x \equiv \ln x
 $$
 
 
