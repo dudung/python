@@ -1,4 +1,4 @@
-# math (10)
+# math (14)
 import and use python math libraries
 
 + [sqrt](sqrt.md)
@@ -11,3 +11,8 @@ import and use python math libraries
 + [log](log.md)
 + [log10](log10.md)
 + [fabs](fabs.md)
++ [ceil](ceil.md)
++ [floor](floor.md)
++ [trunc](trunc.md)
++ [radians](radians.md)
++ degrees
