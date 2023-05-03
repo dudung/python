@@ -1,4 +1,4 @@
-# math (6)
+# math (10)
 import and use python math libraries
 
 + [sqrt](sqrt.md)
@@ -7,3 +7,7 @@ import and use python math libraries
 + [sin](sin.md)
 + [cos](cos.md)
 + [tan](tan.md)
++ [exp](exp.md)
++ [log](log.md)
++ [log10](log10.md)
++ [fabs](fabs.md)
