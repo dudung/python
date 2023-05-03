@@ -1,4 +1,4 @@
-# math (16)
+# math (20)
 import and use python math libraries
 
 + [pi](pi.md)
@@ -8,6 +8,9 @@ import and use python math libraries
 + [sin](sin.md)
 + [cos](cos.md)
 + [tan](tan.md)
++ [asin](asin.md)
++ [acos](acos.md)
++ [atan](atan.md)
 + [exp](exp.md)
 + [log](log.md)
 + [log10](log10.md)
@@ -17,3 +20,4 @@ import and use python math libraries
 + [trunc](trunc.md)
 + [radians](radians.md)
 + [degrees](degrees.md)
++ [copysign](copysign.py)
