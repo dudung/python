@@ -5,3 +5,4 @@ import and use python math libraries
 + [pi](pi.md)
 + [sin](sin.md)
 + [cos](cos.md)
++ [tan](tan.md)
