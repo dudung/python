@@ -1,4 +1,4 @@
-# random (6)
+# random (7)
 import and use python random module
 
 + [random_float](random_float.py)
