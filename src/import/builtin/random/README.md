@@ -7,3 +7,4 @@ import and use python random module
 + [randint](randint.py)
 + [choice](choice.py)
 + [choices](choices.py)
++ [uniform](uniform.py)
