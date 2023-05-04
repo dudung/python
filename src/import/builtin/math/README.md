@@ -1,5 +1,5 @@
 # math (20)
-import and use python math libraries
+import and use python math module
 
 + [pi](pi.md)
 + [e](e.md)
