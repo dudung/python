@@ -1,4 +1,4 @@
-# basics (0)
+# basics (9)
 basic examples how to use python matplotlib package
 
 + [min_loc](min_loc.md)

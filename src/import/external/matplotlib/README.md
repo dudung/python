@@ -1,4 +1,4 @@
-# matplotlib (0)
+# matplotlib (9)
 import and use python matplotlib package
 
-+ [basics](basics/README.md) (0)
++ [basics](basics/README.md) (9)
