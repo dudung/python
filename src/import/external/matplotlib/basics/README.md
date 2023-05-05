@@ -1,4 +1,4 @@
-# basics (9)
+# basics (10)
 basic examples how to use python matplotlib package
 
 + [min_loc](min_loc.md)
@@ -10,3 +10,4 @@ basic examples how to use python matplotlib package
 + [grid](grid.md)
 + [axis_label](axis_label.md)
 + [marker_only](marker_only.md)
++ [line_marker_only](line_marker_only.md)
