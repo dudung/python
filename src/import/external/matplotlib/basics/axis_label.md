@@ -1,3 +1,5 @@
+# axis_label
+```python
 import matplotlib.pyplot as plt
 
 x1 = [1, 9]
@@ -17,3 +19,12 @@ plt.grid()
 plt.xlabel("x")
 plt.ylabel("y")
 plt.show()
+```
+
+
+```shell
+$ python axis_label.py
+```
+
+
+![](svg/axis_label.svg)

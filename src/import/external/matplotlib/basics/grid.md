@@ -1,3 +1,5 @@
+# grid
+```python
 import matplotlib.pyplot as plt
 
 x1 = [1, 9]
@@ -15,3 +17,11 @@ plt.plot(x1, y1, 'ro-', x2, y2, 'gs--', x3, y3, 'bd:')
 plt.legend(legends)
 plt.grid()
 plt.show()
+```
+
+
+```shell
+$ python grid.py
+```
+
+![](svg/grid.svg)
