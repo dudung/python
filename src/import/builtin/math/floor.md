@@ -1,4 +1,4 @@
-# ceil
+# floor
 $$\tag{1}
 y = \lfloor x \rfloor 
 $$

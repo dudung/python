@@ -1,4 +1,4 @@
-# radians
+# degrees
 $$\tag{1}
 y \ (^\circ) = \left( \frac{180}{\pi} \right) \ x \ ({\rm rad})
 $$
