@@ -57,18 +57,32 @@ b3.prepend(b4) # b4-b2-b1-b3
 b1.prepend(b5) # b5-b4-b2-b1-b3
 b1.append(b6)  # b5-b4-b2-b1-b3-b6
 
-print("b5-b4-b2-b1-b3-b6")
-print("(total, prev, next):")
+print("books: b5-b4-b2-b1-b3-b6")
+print("(total, prev, next)")
 
 n = count(b1)
-print("using b1, total number of books is", n)
+print("using b1:", n)
 n = count(b2)
-print("using b2, total number of books is", n)
+print("using b2:", n)
 n = count(b3)
-print("using b3, total number of books is", n)
+print("using b3:", n)
 n = count(b4)
-print("using b4, total number of books is", n)
+print("using b4:", n)
 n = count(b5)
-print("using b5, total number of books is", n)
+print("using b5:", n)
 n = count(b6)
-print("using b6, total number of books is", n)
+print("using b6:", n)
+
+
+
+"""
+$ python linked_list.py
+books: b5-b4-b2-b1-b3-b6
+(total, prev, next)
+using b1: (6, 3, 2)
+using b2: (6, 2, 3)
+using b3: (6, 4, 1)
+using b4: (6, 1, 4)
+using b5: (6, 0, 5)
+using b6: (6, 5, 0)
+"""
