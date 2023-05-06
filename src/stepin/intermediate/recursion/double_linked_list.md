@@ -38,6 +38,11 @@ def count_prev(book):
   else:
     return 1 + count_prev(book.prev)
 
+def count(book):
+  prev = count_prev(book)
+  next = count_next(book)
+  total = 1 + prev + next
+  return total, prev, next
 
 b1 = Book("Physics")
 b2 = Book("Chemistry")
@@ -46,14 +51,24 @@ b4 = Book("Medicine")
 b5 = Book("Architecture")
 b6 = Book("Sport")
 
-b1.prepend(b2)
-b1.append(b3)
-b3.prepend(b4)
-b1.prepend(b5)
-b1.prepend(b6)
+b1.prepend(b2) # b2-b1
+b1.append(b3)  # b2-b1-b3
+b3.prepend(b4) # b4-b2-b1-b3
+b1.prepend(b5) # b5-b4-b2-b1-b3
+b1.append(b6)  # b5-b4-b2-b1-b3-b6
 
+print("b5-b4-b2-b1-b3-b6")
+print("(total, prev, next):")
 
-
-
-print(count_next(b1))
-print(count_prev(b1))
+n = count(b1)
+print("using b1, total number of books is", n)
+n = count(b2)
+print("using b2, total number of books is", n)
+n = count(b3)
+print("using b3, total number of books is", n)
+n = count(b4)
+print("using b4, total number of books is", n)
+n = count(b5)
+print("using b5, total number of books is", n)
+n = count(b6)
+print("using b6, total number of books is", n)
