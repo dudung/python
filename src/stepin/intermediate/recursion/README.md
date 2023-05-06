@@ -1,4 +1,4 @@
-# recursion (3)
+# recursion (4)
 python intermediate examples, recursive function
 
 + [factorial](factorial.md)
