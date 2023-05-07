@@ -1,5 +1,5 @@
-# apply (9)
+# apply (11)
 apply python and non-python codes
 
 + [sode](sode/README.md) (6)
-+ [growth](growth/README.md) (3)
++ [growth](growth/README.md) (5)
