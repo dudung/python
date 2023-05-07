@@ -1,4 +1,5 @@
 # apply (6)
-apply python code for some systems
+apply python and non-python codes
 
 + [sode](sode/README.md) (6)
++ [growth](growth/README.md) (0)
