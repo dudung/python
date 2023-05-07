@@ -3,6 +3,15 @@ $$\tag{1}
 \sum_{i = 0}^n i^2 = n^2 + (n-1)^2 + \dots + 2^2 + 1^2 + 0^2
 $$
 
+$$\tag{2}
+\sum_{i = 0}^n i^2 \equiv f(n) = \left\{
+\begin{array}{cc}
+0, & n = 0 \newline
+n^2 + f(n-1), & n > 0
+\end{array}
+\right.
+$$
+
 
 ```shell
 $ python sumfunc.py
