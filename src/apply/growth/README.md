@@ -1,4 +1,4 @@
-# growth (6)
+# growth (3)
 some growth models in brief
 
-+ [arithmetic](arithmetic/README.md) (0)
++ [arithmetic](arithmetic/README.md) (3)
