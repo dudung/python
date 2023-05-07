@@ -42,12 +42,12 @@ $$
 
 $$\tag{5}
 \begin{array}{rcl}
-x_i & = c^{(i-1)} \cdot x_1
+x_i & = c^{i-1} \cdot x_1
 \end{array}
 $$
 
 $$\tag{6}
 \begin{array}{rcl}
-x_i & = c^{(i-j)} \cdot x_j
+x_i & = c^{i-j} \cdot x_j
 \end{array}
 $$
