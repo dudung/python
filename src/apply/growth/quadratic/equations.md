@@ -1,52 +1,37 @@
 # equations
-$$\tag{A1}
-x_{i+1} = x_i + \Delta x_1 + (i - 1) \Delta x'   
+$$\tag{1}
+x_{i+1} = x_i + \Delta x_{i+1}
 $$
 
-(?) $\Delta x_1$ --> $\Delta x_n$
-
-$$\tag{A2}
-x_i = x_1 + (i - 1) \Delta x_1 + \tfrac12 i (i - 2) \Delta x' 
+$$\tag{2}
+\Delta x_{i+1} = \Delta x_i + \Delta^2 x
 $$
 
-(?) $\tfrac12 i (i - 2)$ --> $\tfrac12 (i - 1) (i - 2)$
-
-$$\tag{B1}
-x'_{i+1} = x'_i + \Delta x', \ \ \ \ i = 1, \ 2, \ 3, \ \dots, \ n-1
+$$\tag{3}
+x_{i+1} = x_i + \Delta x_i + \Delta^2 x
 $$
 
-$$\tag{B2}
-x'_i = x'_1 + (i - 1)\Delta x', \ \ \ \ i = 1, \ 2, \ 3, \ \dots, \ n-1
+$$\tag{4}
+x_i = x_1 + (i-1) \Delta x_1 + \tfrac12 (i-1)(i-2) \Delta^2 x
 $$
 
-$$\tag{B3}
-\Delta x' \ge 0
+$$\tag{5}
+\Delta x \ge 0, \ \ \ \ \Delta^2 x \ge 0
 $$
 
-$$\tag{B4}
-\delta x'_i = x'_{i+1} - x'_i
+$$\tag{6}
+\Delta x_1 = x_2 - x_1
 $$
 
-$$\tag{B5}
-\Delta x' = \overline{\delta x'} = \frac{1}{n - 2} \sum_{i=1}^{n-2} \delta x'_i
+$$\tag{7}
+\delta^2 x_i = x_{i+2} - 2x_{i+1} + x_i 
 $$
 
-$$\tag{C1}
-x_{i+1} = x_i + \Delta x, \ \ \ \ i = 1, \ 2, \ 3, \ \dots, \ n
+$$\tag{8}
+\Delta^2 x = \overline{\delta^2 x} = \frac{1}{n - 2} \sum_{i=1}^{n-2} \delta x_i
 $$
 
-$$\tag{C2}
-x_i = x_1 + (i - 1)\Delta x, \ \ \ \ i = 1, \ 2, \ 3, \ \dots, \ n
-$$
-
-$$\tag{C3}
-\Delta x \ge 0
-$$
-
-$$\tag{C4}
-\delta x_i = x_{i+1} - x_i
-$$
-
-$$\tag{C5}
-\Delta x = \overline{\delta x} = \frac{1}{n - 1} \sum_{i=1}^{n-1} \delta x_i
-$$
+## notes
++ Derivation of (4) using (1)-(3) using backward difference.
++ Calculation of (8) using (6)-(7) using forward difference.
++ Should they be consistent only using one type of FD approach?
