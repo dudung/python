@@ -3,6 +3,14 @@ $$\tag{1}
 \prod_{i = 0}^n (2i+1) = (2n + 1) \cdot (2(n-1) + 1) \cdot ... \cdot 3 \cdot 1
 $$
 
+$$\tag{2}
+\prod_{i = 0}^n (2i+1) \equiv f(n) = \left\{
+\begin{array}{cc}
+1, & n = 0 \newline
+(2n+1) \cdot f(n-1), & n > 0
+\end{array}
+\right.
+$$
 
 ```shell
 $ python prodfunc.py
