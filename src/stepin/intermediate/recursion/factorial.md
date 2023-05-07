@@ -3,6 +3,15 @@ $$\tag{1}
 n! = n \cdot (n-1) \cdot (n-2) \cdot \ . . . \ \cdot 3 \cdot 2 \cdot 1
 $$
 
+$$\tag{2}
+x! \equiv f(x) = \left\{
+\begin{array}{cc}
+1, & x = 0 \newline
+x \cdot f(x-1), & x > 0
+\end{array}
+\right.
+$$
+
 
 ```shell
 python factorial.py
