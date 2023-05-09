@@ -6,7 +6,9 @@ snippets for generic growth model
 + [geometric](geometric.md)
 + [cubic_terms_diffs](cubic_terms_diffs.py)
 + [cubic](cubic.md)
+<!--
 + quartic
 + quintic
 + sextic
 + septic
+-->
