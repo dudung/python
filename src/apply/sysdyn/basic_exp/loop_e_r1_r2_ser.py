@@ -30,3 +30,17 @@ for t in range(10):
     break
   else:
     Inew = I
+
+"""
+$ python loop_e_r1_r2_ser.py
+eps = 12
+R1 = 1.5
+R1 = 2.5
+
+t       I       V1      V2
+0       -360    10      -20
+1       -354.5  -531.75 -886.25
+2       3.0     4.5     7.5
+
+Solved in 2 iteration
+"""

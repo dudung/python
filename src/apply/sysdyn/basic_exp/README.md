@@ -1,4 +1,4 @@
-# basic_exp (6)
+# basic_exp (8)
 basic and experimental examples of system dynamics
 
 + [loop_e_r](loop_e_r.py)
@@ -7,3 +7,5 @@ basic and experimental examples of system dynamics
 + [loop_e1_r1_r3_r2_e2](loop_e1_r1_r3_r2_e2.py)
 + [popul_birth](popul_birth.py)
 + [popul_death](popul_death.py)
++ [popul](popul.py)
++ [popul_birth_death](popul_birth_death.py)

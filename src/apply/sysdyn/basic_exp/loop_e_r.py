@@ -24,3 +24,17 @@ for t in range(5):
     break
   else:
     Vnew = V
+
+
+"""
+$ python loop_e_r.py
+eps = 16
+R = 4
+
+t       I       V
+0       -12.34  500.005
+1       -133.34125      -533.365
+2       4.0     16.0
+
+Solved in 2 iteration
+"""
