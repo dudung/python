@@ -1,6 +1,6 @@
 import numpy as np
 
-m = np.zeros([5, 3])
+m = np.ones([5, 3])
 
 print("m =")
 print(m)
@@ -11,13 +11,13 @@ print("shape =", m.shape)
 
 
 """
-$ python zeros.py
+$ python ones.py
 m =
-[[0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]
- [0. 0. 0.]]
+[[1. 1. 1.]
+ [1. 1. 1.]
+ [1. 1. 1.]
+ [1. 1. 1.]
+ [1. 1. 1.]]
 
 ndim = 2
 shape = (5, 3)
