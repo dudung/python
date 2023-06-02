@@ -14,7 +14,7 @@ b = np.array(
   ]
 )
 
-c = a + b
+c = a - b
 
 print("a =")
 print(a)
@@ -29,7 +29,7 @@ print(c)
 
 
 """
-$ python addition.py
+$ python substraction.py
 a =
 [[1 2]
  [3 4]]
@@ -39,6 +39,6 @@ b =
  [-2  5]]
 
 c =
-[[0 4]
- [1 9]]
+[[ 2  0]
+ [ 5 -1]]
 """
