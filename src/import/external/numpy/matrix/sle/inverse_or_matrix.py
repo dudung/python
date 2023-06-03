@@ -1,5 +1,7 @@
 import numpy as np
 
+"""
+# generate matrices from solution
 x1 = 4
 x2 = 3
 x3 = 1
@@ -16,9 +18,6 @@ b2 = np.dot(a2, xx)
 b3 = np.dot(a3, xx)
 b4 = np.dot(a4, xx)
 
-print("ax = b")
-print()
-
 a = np.vstack((a1, a2, a3, a4))
 print("a =")
 print(a)
@@ -27,6 +26,27 @@ print()
 b = np.stack((b1, b2, b3, b4))
 print("b =")
 print(b)
+print()
+"""
+
+a = np.array(
+  [
+    [1, 2, 3, 4],
+    [2, 3, 1, 1],
+    [1, 3, 1, 3],
+    [1, 2, 2, 1]  
+  ]
+)
+print("a =")
+print(a)
+print()
+
+b = np.array([21, 20, 20, 14])
+print("b =")
+print(b)
+print()
+
+print("ax = b")
 print()
 
 inva = np.linalg.inv(a)
