@@ -9,4 +9,8 @@ print("b =", b)
 print("c = np.ross(a, b) =", c)
 
 """
+$ python cross.py
+a = [1 1 0]
+b = [-1  1  0]
+c = np.ross(a, b) = [0 0 2]
 """
